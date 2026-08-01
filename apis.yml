@@ -1,22 +1,71 @@
 aid: realpact
-name: Realpact
-description: Realpact is a company surfaced as a portfolio company of y-combinator and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/realpact.png
+name: RealPact
+description: >-
+  RealPact is a Y Combinator (Summer 2026) startup building an AI-native
+  operating system for real estate brokerages. Its voice-enabled AI agents
+  automate the operational work behind every deal: the Deed Agent retrieves
+  county deed records and flags encumbrances, the Tax & Vision Agent uses
+  computer vision to extract tax assessments and property details, the Property
+  Agent consolidates ownership and property information, and the Transaction
+  Agent auto-fills contracts, manages disclosures, coordinates signatures, and
+  tracks compliance deadlines. The company aims to compress transaction
+  workflows from hours to minutes for brokerages, with early customers including
+  Four Seasons Sotheby's International Realty and Black House Real Estate. Backed
+  by Y Combinator and the LeapYear Fund, RealPact currently operates a
+  customer-facing application and marketing site but publishes no public API,
+  SDK, or developer program as of this profiling.
 url: https://raw.githubusercontent.com/api-evangelist/realpact/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - y-combinator
+- leapyear-fund
 x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier-reason: no-public-api-surface
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Real Estate
+- PropTech
+- Artificial Intelligence
+- AI Agents
+- Automation
+- Brokerage
+- Transaction Management
+- Y Combinator
 apis: []
+common:
+- type: DomainSecurity
+  url: security/realpact-domain-security.yml
+- type: Website
+  url: https://realpact.ai
+- type: SignUp
+  url: https://app.realpact.ai
+- type: PrivacyPolicy
+  url: https://realpact.ai/privacy
+- type: TermsOfService
+  url: https://realpact.ai/terms
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
